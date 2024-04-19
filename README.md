@@ -1,2 +1,1 @@
-# PhenomenalHR-website
-Website for PhenomenalHR
+PhenomenalHR Website
