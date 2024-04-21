@@ -12,7 +12,7 @@ const Hero = () => {
         }
       };
   return (
-    <div className='mt-20 font-poppins px-10 w-full flex justify-between items-center'>
+    <div className='mt-20 font-poppins px-20 w-full flex justify-between items-center'>
         <div>
 
         <p className='text-4xl font-normal w-6/12 mb-8'>Welcome to <span className='font-semibold text-[#00B8A2]'>PhenomenalHR</span>, where we revolutionize human resource management for businesses.</p>
