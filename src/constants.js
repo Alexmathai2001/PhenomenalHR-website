@@ -163,3 +163,37 @@ export const services = [
         "serviceDesc" : "Planning and organizing team-building activities, offsite retreats, and corporate outings to foster team cohesion, morale, and well-being."
     },
 ]
+
+export const team = [
+    {
+        "image" : '/images/team/founder.jpg',
+        "name" : "Alex Mathai",
+        "role" : "Full Stack Develper"
+    },
+    {
+        "image" : '/images/team/founder.jpg',
+        "name" : "Maria",
+        "role" : "CEO"
+    },
+    {
+        "image" : '/images/team/founder.jpg',
+        "name" : "Arshad",
+        "role" : "Product Lead"
+    },
+    {
+        "image" : '/images/team/founder.jpg',
+        "name" : "Annmerin",
+        "role" : "Junior Developer"
+    },
+    {
+        "image" : '/images/team/founder.jpg',
+        "name" : "Alfred",
+        "role" : "Cyber Security"
+    },
+    {
+        "image" : '/images/team/founder.jpg',
+        "name" : "Cerin",
+        "role" : "Team Lead"
+    },
+
+]
