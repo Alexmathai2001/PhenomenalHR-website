@@ -8,7 +8,7 @@ const Header = () => {
             <img src='/images/logo.png' className='md:w-14 w-8'></img>
             <p className='font-semibold font-poppins text-sm lg:text-base'>PHENOMENAL HR</p>
         </div>
-        <div className='hidden gap-20 font-poppins me-10 md:flex'>
+        <div className='hidden gap-20 md:gap-6 font-poppins me-10 md:flex'>
             <Link to={'/home'} className='font-semibold text-[#00B8A2] '>Home</Link>
             <Link to={'/services'} className='font-medium'>Service</Link>
             <Link to={'/about-us'} className='font-medium'>About Us</Link>
