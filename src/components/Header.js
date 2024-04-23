@@ -9,10 +9,10 @@ const Header = () => {
             <p className='font-semibold font-poppins text-sm lg:text-base'>PHENOMENAL HR</p>
         </div>
         <div className='hidden gap-20 md:gap-6 font-poppins me-10 md:flex'>
-            <Link to={'/home'} className='font-semibold text-[#00B8A2] '>Home</Link>
+            <Link to={'/'} className='font-semibold text-[#00B8A2] '>Home</Link>
             <Link to={'/services'} className='font-medium'>Service</Link>
-            <Link to={'/about-us'} className='font-medium'>About Us</Link>
-            <Link to={'contact-us'} className='font-medium'>Contact Us</Link>
+            <Link to={'/aboutus'} className='font-medium'>About Us</Link>
+            <Link to={'/contactus'} className='font-medium'>Contact Us</Link>
         </div>
         <button className='md:hidden'>
           <img src='/images/logo.png' className='w-6'></img>
