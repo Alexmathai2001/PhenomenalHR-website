@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='p-6  h-20 bg-[#EAFFFD] flex justify-between items-center px-3 py-2 w-full'>
         <div className='flex items-center gap-3'>
-            <img src='/images/logo.png' className='md:w-14 w-8'></img>
+            <img alt='image' src='/images/logo.png' className='md:w-14 w-8'></img>
             <p className='font-semibold font-poppins text-sm lg:text-base'>PHENOMENAL HR</p>
         </div>
         <div className='hidden gap-20 md:gap-6 font-poppins me-10 md:flex'>
@@ -15,7 +15,7 @@ const Header = () => {
             <Link to={'/contactus'} className='font-medium'>Contact Us</Link>
         </div>
         <button className='md:hidden'>
-          <img src='/images/logo.png' className='w-6'></img>
+          <img alt='logo' src='/images/logo.png' className='w-6'></img>
         </button>
 
     </div>

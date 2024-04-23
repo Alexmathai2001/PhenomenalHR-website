@@ -12,17 +12,18 @@ const Hero = () => {
         }
       };
   return (
-    <div className='mt-20 font-poppins px-20 w-full flex justify-between items-center'>
+    <div className='mt-20 font-poppins md:px-20 sm:px-10 px-5 w-full flex justify-between items-center'>
         <div>
 
-        <p className='text-4xl font-normal w-6/12 mb-8'>Welcome to <span className='font-semibold text-[#00B8A2]'>PhenomenalHR</span>, where we revolutionize human resource management for businesses.</p>
+        <p className='text-xl font-normal w-full sm:8/12 md:w-6/12 mb-8'>Welcome to <span className='font-semibold text-[#00B8A2]'>PhenomenalHR</span>, where we revolutionize human resource management for businesses.</p>
         <Link className='border-2 border-[#00B8A2] px-2 text-sm text-[#00B8A2] font-semibold py-2 rounded-md'>Know our feature</Link>
 
         </div>
-        <div>
+        <div className='hidden lg:block'>
         <Lottie options={defaultOptions}
               height={500}
               width={500}/>
+      
         </div>
         
     </div>

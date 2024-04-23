@@ -9,7 +9,7 @@ const MessageFromFounder = () => {
       <div className="md:flex w-full">
         {/* founder image */}
         <div className="flex flex-col items-center justify-center my-6 md:w-1/3">
-          <img
+          <img alt="image"
             src="/images/founder.jpg"
             className="rounded-full w-36 h-36 lg:w-48 lg:h-48 object-cover bg-[#EAFFFD] p-5"
           ></img>

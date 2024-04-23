@@ -9,7 +9,7 @@ const MeetOurTeam = () => {
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center'>
         {/* card one */}
         <div className='bg-slate-100 w-60 h-60 rounded-lg my-3 p-6 flex flex-col items-center justify-center gap-3'>
-            <img src='/images/founder.jpg' className='w-28 h-28 rounded-full object-cover'></img>
+            <img alt='image' src='/images/founder.jpg' className='w-28 h-28 rounded-full object-cover'></img>
             <div className='flex flex-col items-center'>
 
             <p className='font-bold text-gray-700 text-lg'>Alex Mathai</p>
@@ -19,7 +19,7 @@ const MeetOurTeam = () => {
         </div>
         {/* card one */}
         <div className='bg-slate-100 w-60 h-60 rounded-lg my-3 p-6 flex flex-col items-center justify-center gap-3'>
-            <img src='/images/founder.jpg' className='w-28 h-28 rounded-full object-cover'></img>
+            <img alt='image' src='/images/founder.jpg' className='w-28 h-28 rounded-full object-cover'></img>
             <div className='flex flex-col items-center'>
 
             <p className='font-bold text-gray-700 text-lg'>Alex Mathai</p>
@@ -29,7 +29,7 @@ const MeetOurTeam = () => {
         </div>
         {/* card one */}
         <div className='bg-slate-100 w-60 h-60 rounded-lg my-3 p-6 flex flex-col items-center justify-center gap-3'>
-            <img src='/images/founder.jpg' className='w-28 h-28 rounded-full object-cover'></img>
+            <img alt='team' src='/images/founder.jpg' className='w-28 h-28 rounded-full object-cover'></img>
             <div className='flex flex-col items-center'>
 
             <p className='font-bold text-gray-700 text-lg'>Alex Mathai</p>
@@ -39,7 +39,7 @@ const MeetOurTeam = () => {
         </div>
         {/* card one */}
         <div className='bg-slate-100 w-60 h-60 rounded-lg my-3 p-6 flex flex-col items-center justify-center gap-3'>
-            <img src='/images/founder.jpg' className='w-28 h-28 rounded-full object-cover'></img>
+            <img alt='team' src='/images/founder.jpg' className='w-28 h-28 rounded-full object-cover'></img>
             <div className='flex flex-col items-center'>
 
             <p className='font-bold text-gray-700 text-lg'>Alex Mathai</p>
