@@ -3,7 +3,6 @@ import { team } from "../constants";
 
 const MeetOurTeam = () => {
   const [teams, setTeams] = useState(team);
-  console.log(teams);
   return (
     <div>
       <p className="flex justify-center text-xl font-semibold text-[#00B8A2] my-5">

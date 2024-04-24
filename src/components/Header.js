@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Slidein from "./Slidein";
+import SlideIn from "./SlideIn";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <div className="p-6 h-20 bg-[#EAFFFD] flex justify-between items-center px-3 py-2 w-full relative"> {/* Added relative class */}
+    <div className="p-6 h-20 bg-[#EAFFFD] flex justify-between items-center px-3 py-2 w-full relative">
       <div className="flex items-center gap-3">
         <img alt="image" src="/images/logo.png" className="md:w-14 w-8"></img>
         <p className="font-semibold font-poppins text-sm lg:text-base">
@@ -47,7 +47,7 @@ const Header = () => {
         <span className="material-symbols-outlined">menu</span>
       </button>
 
-      <Slidein />
+      <SlideIn isOpen={isMenuOpen} onClose={toggleMenu} />
     </div>
   );
 };

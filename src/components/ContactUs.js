@@ -4,7 +4,7 @@ import Form from './Form'
 const ContactUs = () => {
   return (
     <div className="font-poppins">
-      <p className="flex justify-center text-xl font-semibold text-[#00B8A2]">
+      <p className="flex justify-center text-xl xl:text-3xl font-semibold text-[#00B8A2]">
         Contact Us
       </p>
       <div className="my-5 px-10 md:flex justify-around items-center" >
