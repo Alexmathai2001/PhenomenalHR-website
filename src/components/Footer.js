@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='md:h-60 h-40 bg-[#EAFFFD] px-5 py-8 w-full font-poppins'>
         <div className=' flex justify-between '>
         <div className='flex items-center gap-3 w-7/12'>
-            <img alt='image' src='/images/logo.png' className='w-8 h-8 lg:w-16 h-16'></img>
+            <img alt='image' src='/images/logo.png' className='w-8 h-8 lg:w-16  lg:h-16'></img>
             <p className='font-medium font-poppins text-xs md:text-sm' >PHENOMENAL HR</p>
         </div>
         <div className='flex justify-around w-5/12'>

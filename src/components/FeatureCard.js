@@ -1,7 +1,6 @@
 import React from 'react'
 
 const FeatureCard = (props) => {
-  console.log(props)
   return (
     <div className='w-60 h-80 bg-white p-5 flex flex-col justify-around items-center rounded-2xl shadow-lg group hover:bg-gray-100 transition duration-200 ease-in-out'>
   <div>

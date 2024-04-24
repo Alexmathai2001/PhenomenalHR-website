@@ -1,8 +1,21 @@
-import React, { useState } from "react";
-import { team } from "../constants";
+import React, { useEffect, useState } from "react";
+// import { team } from "../constants";
+import axios from "axios";
 
 const MeetOurTeam = () => {
-  const [teams, setTeams] = useState(team);
+  const [teams, setTeams] = useState([]);
+
+  useEffect(() => {
+    const call = async () => {
+      const info = await axios.get(
+        "https://staging.phenomenalhr.com/api/v1/employees"
+      );
+      console.log("hello");
+      console.log(info?.data?.data);
+      setTeams(info?.data?.data);
+    };
+    call();
+  }, []);
   return (
     <div>
       <p className="flex justify-center text-xl font-semibold text-[#00B8A2] my-5">
@@ -12,16 +25,25 @@ const MeetOurTeam = () => {
         {/* card one */}
         {teams.map((data, index) => (
           <div className="bg-slate-100 w-60 h-60 rounded-lg my-3 p-6 flex flex-col items-center justify-center gap-3">
-            <img
-              alt="image"
-              src={data?.image}
-              className="w-28 h-28 rounded-full object-cover"
-            ></img>
+            {data?.image ? (
+              <img
+                alt="image"
+                src={data.image}
+                className="w-28 h-28 rounded-full object-cover"
+              />
+            ) : (
+              <img
+                alt="placeholder"
+                src="/images/avatar.png" // Replace "path_to_static_image.jpg" with the actual path to your static image
+                className="w-28 h-28 rounded-full object-cover"
+              />
+            )}
+
             <div className="flex flex-col items-center">
-              <p className="font-bold text-gray-700 text-lg">{data?.name}</p>
-              <p className="font-light text-gray-500">
-                {data?.role}
+              <p className="font-bold text-gray-700 text-lg">
+                {data?.first_name +" "+ data?.last_name}
               </p>
+              <p className="font-light text-gray-500">{data?.designation}</p>
             </div>
           </div>
         ))}

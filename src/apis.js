@@ -1,0 +1,1 @@
+export const client_api = 'https://phenomenalhr.com/api/v1/clients' 

@@ -13,7 +13,7 @@ const FAQ = () => {
     <div className="px-10 font-poppins w-full lg:flex my-20">
       <div className="lg:w-4/12 w-full flex justify-center">
         <p className=" text-3xl w-8/12 flex justify-center text-center font-medium text-[#00B8A2]">
-          What people often ask about HR{" "}
+          Frequently Asked Questions
         </p>
       </div>
 
