@@ -6,7 +6,7 @@ const Vision = () => {
       
       <div className="w-full flex justify-around items-center">
         <div>
-        <p className=" w-full sm:text-lg lg:text-2xl xl:text-3xl font-bold text-green-700 py-4">
+        <p className=" w-full sm:text-lg lg:text-2xl xl:text-3xl font-bold text-[#00B8A2] py-4">
         Our Vision
       </p>
         <p className="pb-10 text-sm xl:text-lg font-light text-gray-600 md:w-2/2">

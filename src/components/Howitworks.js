@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Howitworks = () => {
   return (
     <div className="px-10 font-poppins">
-      <p className="flex justify-center text-xl lg:text-3xl font-semibold text-[#00B8A2] xl:my-10">
-        How it works
+      <p className="flex justify-center text-2xl lg:text-3xl font-semibold text-[#00B8A2] xl:my-10">
+        How do we work
       </p>
 
       <div className="md:flex justify-around md:gap-10 md:w-full">
@@ -28,7 +28,7 @@ const Howitworks = () => {
             dashboard_customize
           </span>
           <p className="my-3 text-lg md:text-xl font-semibold text-center capitalize"><span className="text-[#00B8A2]">Step 3 : </span>Custom proposal and terms alignment</p>
-      <p className="text-center font-light text-sm">WWe put together a custom proposal to solve the specific HR challenges along with list of deliverables, timelines and resource needs. On agreeing, we start working, sometimes the very same day!</p>
+      <p className="text-center font-light text-sm">We put together a custom proposal to solve the specific HR challenges along with list of deliverables, timelines and resource needs. On agreeing, we start working, sometimes the very same day!</p>
         </div>
       </div>
     </div>

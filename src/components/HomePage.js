@@ -17,8 +17,8 @@ const HomePage = () => {
         <div className="px-10 my-12 ">
         <Services />
       </div>
-        <Clients />
         <Features />
+        <Clients />
         <FAQ />
         <Footer />
     </div>

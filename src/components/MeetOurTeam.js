@@ -16,7 +16,7 @@ const MeetOurTeam = () => {
   }, []);
   return (
     <div>
-      <p className="flex justify-center text-xl font-semibold text-[#00B8A2] my-5">
+      <p className="flex justify-center text-xl lg:text-3xl font-semibold text-[#00B8A2] xl:my-10">
         Meet Our Team
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 justify-items-center">
