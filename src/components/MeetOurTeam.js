@@ -10,8 +10,6 @@ const MeetOurTeam = () => {
       const info = await axios.get(
         "https://staging.phenomenalhr.com/api/v1/employees"
       );
-      console.log("hello");
-      console.log(info?.data?.data);
       setTeams(info?.data?.data);
     };
     call();

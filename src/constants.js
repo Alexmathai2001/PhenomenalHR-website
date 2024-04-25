@@ -64,28 +64,27 @@ export const data = [
 export const features = [
     {
         "imageurl" : '/images/icons/Bookmark.png',
-        "feature" : "faster",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+        "feature" : "Dedicated HR Partners supported by Experts",
     },
     {
         "imageurl" : '/images/icons/Bookmark.png',
-        "feature" : "faster",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+        "feature" : "Guaranteed workforce transformation through custom HR interventions",
     },
     {
         "imageurl" : '/images/icons/Bookmark.png',
-        "feature" : "faster",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+        "feature" : "Complete solutions and competitive pricing",
     },
     {
         "imageurl" : '/images/icons/Bookmark.png',
-        "feature" : "faster",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+        "feature" : "SME's in integrated HR+ Business Strategy ",
     },
     {
         "imageurl" : '/images/icons/Bookmark.png',
-        "feature" : "faster",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+        "feature" : "Unlimited HR advise and high touch support ",
+    },
+    {
+        "imageurl" : '/images/icons/Bookmark.png',
+        "feature" : "Proven processes and a track record of success ",
     },
 ]
 
@@ -164,36 +163,3 @@ export const services = [
     },
 ]
 
-export const team = [
-    {
-        "image" : '/images/team/founder.jpg',
-        "name" : "Alex Mathai",
-        "role" : "Full Stack Develper"
-    },
-    {
-        "image" : '/images/team/founder.jpg',
-        "name" : "Maria",
-        "role" : "CEO"
-    },
-    {
-        "image" : '/images/team/founder.jpg',
-        "name" : "Arshad",
-        "role" : "Product Lead"
-    },
-    {
-        "image" : '/images/team/founder.jpg',
-        "name" : "Annmerin",
-        "role" : "Junior Developer"
-    },
-    {
-        "image" : '/images/team/founder.jpg',
-        "name" : "Alfred",
-        "role" : "Cyber Security"
-    },
-    {
-        "image" : '/images/team/founder.jpg',
-        "name" : "Cerin",
-        "role" : "Team Lead"
-    },
-
-]

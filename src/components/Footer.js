@@ -12,10 +12,10 @@ const Footer = () => {
         <div className='flex justify-around w-5/12'>
             <div className='md:flex flex-col gap-3 items-center hidden'>
                 <p className='text-gray-600'>Links</p>
-                <Link className='block text-xs font-medium text-slate-500'>Home</Link>
-                <Link className='block text-xs font-medium text-slate-500'>Service</Link>
-                <Link className='block text-xs font-medium text-slate-500'>About Us</Link>
-                <Link className='block text-xs font-medium text-slate-500'>Contact Us</Link>
+                <Link to={"/"} className='block text-xs font-medium text-slate-500'>Home</Link>
+                <Link to={"/services"} className='block text-xs font-medium text-slate-500'>Service</Link>
+                <Link to={"/aboutus"} className='block text-xs font-medium text-slate-500'>About Us</Link>
+                <Link to={"/contactus"} className='block text-xs font-medium text-slate-500'>Contact Us</Link>
             </div>
             <div className='lex flex-col items-center'>
                 <p>Socials</p>

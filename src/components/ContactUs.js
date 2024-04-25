@@ -17,7 +17,7 @@ const ContactUs = () => {
             <span class="material-symbols-outlined text-[#00B8A2] p-6 bg-[#EAFFFD] text-3xl">mail</span>
             <div>
               <p className="font-medium">Email</p>
-              <p className="font-light text-sm text-gray-700">alexmathai07@gmail.com</p>
+              <p className="font-light text-sm text-gray-700">anju@phenomenalhr.com</p>
             </div>
           </div>
           {/* Phone */}
@@ -25,7 +25,7 @@ const ContactUs = () => {
             <span class="material-symbols-outlined text-[#00B8A2] p-6 bg-[#EAFFFD] text-3xl">phone</span>
             <div>
               <p className="font-medium">Phone</p>
-              <p className="font-light text-sm text-gray-700">9400354724</p>
+              <p className="font-light text-sm text-gray-700">+91 78294 95612</p>
             </div>
           </div>
           </div>
