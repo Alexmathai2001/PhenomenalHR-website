@@ -14,7 +14,7 @@ const Howitworks = () => {
             support_agent
           </span>
           <p className="my-3 text-lg md:text-xl font-semibold text-center capitalize"><span className="text-[#00B8A2]">Step 1 : </span>Consultation</p>
-      <p className="text-center font-light text-sm md:text-base">Click on <Link className="font-medium text-[#00B8A2]">contact us</Link> to book a free 45 minutes consultation call. In this call, our team of consultants understand the specific challenges and requirements from the founders or business owners.</p>
+      <p className="text-center font-light text-sm md:text-base">Click on <Link to={'/contactus'} className="font-medium text-[#00B8A2]">contact us</Link> to book a free 45 minutes consultation call. In this call, our team of consultants understand the specific challenges and requirements from the founders or business owners.</p>
         </div>
         <div className="flex flex-col items-center md:w-1/3">
           <span class="material-symbols-outlined text-[#00B8A2] mt-10 mb-2 text-3xl md:text-6xl">
