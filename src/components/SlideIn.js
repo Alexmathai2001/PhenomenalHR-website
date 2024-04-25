@@ -21,6 +21,7 @@ const SlideIn = ({ isOpen, onClose }) => {
           </div>
           <div className="flex flex-col gap-3">
             <Link to={'/'} className="block w-full bg-[#00B8A2] text-center font-semibold text-white py-2 px-3 rounded-lg">Home</Link>
+            <Link to={'/services'} className="block w-full bg-[#00B8A2] text-center font-semibold text-white py-2 px-3 rounded-lg">Services</Link>
             <Link to={'/aboutus'} className="block w-full bg-[#00B8A2] text-center font-semibold  text-white py-2 px-3 rounded-lg">About Us</Link>
             <Link to={'/contactus'} className="block w-full bg-[#00B8A2] text-center font-semibold  text-white py-2 px-3 rounded-lg">Contact Us</Link>
           </div>

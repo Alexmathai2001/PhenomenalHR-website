@@ -20,9 +20,15 @@ const Header = () => {
       <div className={`gap-20 md:gap-6 font-poppins hidden md:flex xl:me-20`}>
         <Link
           to={"/"}
-          className="font-semibold hover:text-[#00B8A2] hover:scale-110 transition duration-200 ease-in-out"
+          className="font-medium hover:text-[#00B8A2] hover:scale-110 transition duration-200 ease-in-out"
         >
           Home
+        </Link>
+        <Link
+          to={"/services"}
+          className="font-medium hover:text-[#00B8A2] hover:scale-110 transition duration-200 ease-in-out"
+        >
+          Services
         </Link>
         <Link
           to={"/aboutus"}
