@@ -63,27 +63,27 @@ export const data = [
 
 export const features = [
     {
-        "imageurl" : '/images/icons/features.png',
+        "imageurl" : '/images/icons/star.png',
         "feature" : "Dedicated HR Partners supported by Experts",
     },
     {
-        "imageurl" : '/images/icons/features.png',
+        "imageurl" : '/images/icons/star.png',
         "feature" : "Guaranteed workforce transformation through custom HR interventions",
     },
     {
-        "imageurl" : '/images/icons/features.png',
+        "imageurl" : '/images/icons/star.png',
         "feature" : "Complete solutions and competitive pricing",
     },
     {
-        "imageurl" : '/images/icons/features.png',
+        "imageurl" : '/images/icons/star.png',
         "feature" : "SME's in integrated HR+ Business Strategy ",
     },
     {
-        "imageurl" : '/images/icons/features.png',
+        "imageurl" : '/images/icons/star.png',
         "feature" : "Unlimited HR advise and high touch support ",
     },
     {
-        "imageurl" : '/images/icons/features.png',
+        "imageurl" : '/images/icons/star.png',
         "feature" : "Proven processes and a track record of success ",
     },
 ]
