@@ -5,7 +5,7 @@ const Howitworks = () => {
   return (
     <div className="px-10 font-poppins">
       <p className="flex justify-center text-2xl lg:text-3xl font-semibold text-[#00B8A2] xl:my-10">
-        How do we work
+        How do we work?
       </p>
 
       <div className="md:flex justify-around md:gap-10 md:w-full">
