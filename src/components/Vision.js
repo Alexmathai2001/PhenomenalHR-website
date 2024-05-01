@@ -9,7 +9,7 @@ const Vision = () => {
         <p className=" w-full sm:text-lg lg:text-2xl xl:text-3xl font-bold text-[#00B8A2] py-4">
         Our Vision
       </p>
-        <p className="pb-10 text-sm xl:text-lg font-light text-gray-600 md:w-2/2">
+        <p className="pb-10 text-sm xl:text-lg font-light text-green-700 md:w-2/2">
           Phenomenal HR envisions a future where HR is not merely
           administrative, but becomes a strategic powerhouse driving
           organizational success. We are committed to crafting and maintaining

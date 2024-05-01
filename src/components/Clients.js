@@ -18,8 +18,8 @@ const Clients = () => {
 
   return (
     <div className='px-5 w-full font-poppins my-10'>
-      <p className='flex justify-center text-xl xl:text-3xl font-semibold text-[#00B8A2]'>Clients</p>
-      <div className='grid lg:grid-cols-5 grid-cols-3 gap-5 justify-items-center items-center my-5'>
+      <p className="flex justify-center text-2xl lg:text-4xl font-semibold text-[#00B8A2] xl:my-10">Who are our clients?</p>
+      <div className='grid lg:grid-cols-5 grid-cols-3 xl:gap-y-10 justify-items-center items-center my-10'>
         {client.length > 0 ? (
           client.map((data, index) => (
             <div>

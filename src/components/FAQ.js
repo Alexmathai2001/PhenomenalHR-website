@@ -10,14 +10,12 @@ const FAQ = () => {
   const [faq,setFaq] = useState(data)
 
   return (
-    <div className="px-10 font-poppins w-full lg:flex my-20">
-      <div className="lg:w-4/12 w-full flex justify-center">
-        <p className=" text-3xl w-8/12 flex justify-center text-center font-medium text-[#00B8A2]">
-          Frequently Asked Questions
-        </p>
-      </div>
+    <div className="px-10 font-poppins w-full my-20 xl:flex xl:flex-col xl:items-center">
+      <p className="flex justify-center text-2xl lg:text-4xl font-semibold text-[#00B8A2] xl:my-10">Want to know more?</p>
+      
 
-      <div className="lg:w-6/12 w-full mt-10 flex justify-center">
+      <div className=" xl:w-1/2 mt-10 flex justify-center">
+        <div>
         <div>
           {faq.map((data,index) => (
 
@@ -35,6 +33,7 @@ const FAQ = () => {
         </Accordion>
 
           ))}
+        </div>
         </div>
       </div>
     </div>
