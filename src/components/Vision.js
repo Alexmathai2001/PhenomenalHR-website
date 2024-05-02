@@ -2,7 +2,7 @@ import React from "react";
 
 const Vision = () => {
   return (
-    <div className="w-full bg-[#EAFFFD] h-auto my-6 px-10 font-poppins">
+    <div className="w-full bg-[#EAFFFD] h-auto my-6 px-10 lg:px-36 font-poppins">
       
       <div className="w-full flex justify-around items-center">
         <div>

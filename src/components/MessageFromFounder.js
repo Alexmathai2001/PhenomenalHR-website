@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const MessageFromFounder = () => {
   return (
-    <div className="font-poppins px-10 ">
+    <div className="font-poppins px-10 xl:px-36">
       <p className="flex justify-center text-xl lg:text-3xl font-semibold text-[#00B8A2] xl:my-10">
         Message From Founder
       </p>
