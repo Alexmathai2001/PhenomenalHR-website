@@ -10,7 +10,7 @@ const FAQ = () => {
   const [faq,setFaq] = useState(data)
 
   return (
-    <div className="px-10 font-poppins w-full my-20 xl:flex xl:flex-col xl:items-center">
+    <div className="px-10 font-poppins w-full mb-20 xl:flex xl:flex-col xl:items-center">
       <p className="flex justify-center text-2xl lg:text-4xl font-semibold text-[#00B8A2] xl:my-10">Want to know more?</p>
       
 

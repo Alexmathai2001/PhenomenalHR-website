@@ -39,7 +39,7 @@ const Clients = () => {
   return (
     <div className="px-5 w-full font-poppins my-10">
       <p className="flex justify-center text-2xl lg:text-4xl font-semibold text-[#00B8A2] xl:my-10">Who are our clients?</p>
-      <div className="flex overflow-hidden" ref={sliderRef}>
+      <div className="flex overflow-hidden my-20" ref={sliderRef}>
         <div className="flex animate-marquee whitespace-nowrap items-center gap-6">
           {client.length > 0 ? (
             client.map((data, index) => (
@@ -56,7 +56,7 @@ const Clients = () => {
             <p>Loading...</p>
           )}
         </div>
-        <div className="flex animate-marquee whitespace-nowrap xl:ms-[50rem] items-center gap-6">
+        <div className="md:flex hidden animate-marquee whitespace-nowrap xl:ms-[50rem] items-center gap-6">
           {client.length > 0 ? (
             client.map((data, index) => (
               <div key={index} className="flex-none mr-10 max-w-[150px] lg:max-w-[200px]">
