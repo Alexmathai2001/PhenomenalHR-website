@@ -8,8 +8,9 @@ const MeetOurTeam = () => {
   useEffect(() => {
     const call = async () => {
       const info = await axios.get(
-        "https://staging.phenomenalhr.com/api/v1/employees"
+        "https://phenomenalhr.s3.ap-south-1.amazonaws.com/content/employees.json"
       );
+      console.log(info?.data)
       setTeams(info?.data?.data);
     };
     call();
