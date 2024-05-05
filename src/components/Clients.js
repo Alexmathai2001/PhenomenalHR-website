@@ -46,7 +46,7 @@ const Clients = () => {
               <div key={index} className="flex-none mr-10 max-w-[150px] lg:max-w-[200px]">
                 <img
                   src={data?.media[0]?.original_url}
-                  className="w-24 lg:w-32 object-contain saturate-0 hover:saturate-100 transition duration-200 ease-in-out hover:scale-105"
+                  className="max-w-24 lg:max-w-32 object-contain saturate-0 hover:saturate-100 transition duration-200 ease-in-out hover:scale-105"
                   alt="image"
                 />
                 <p>{data?.message}</p>
