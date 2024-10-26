@@ -25,7 +25,7 @@ const ContactUs = () => {
             <span class="material-symbols-outlined text-[#00B8A2] p-6 bg-[#EAFFFD] text-3xl">phone</span>
             <div>
               <p className="font-medium">Phone</p>
-              <p className="font-light text-sm text-gray-700">+91 78294 95612</p>
+              <p className="font-light text-sm text-gray-700">+91 97469 09992</p>
             </div>
           </div>
           </div>
